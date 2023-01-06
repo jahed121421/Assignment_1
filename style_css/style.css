@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0%;
+    font-family: work sans;
+}
+/* header section start */
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../asset/image/banner1.png);
+    background-position: center;
+    background-size: cover;
+}
+.header-part{
+    text-align: right;
+    padding-right: 150px;
+    padding-top: 180px;
+}
+.header-part > h1{
+    font-size: 65px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.header-part > p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top:24px;
+    padding-bottom: 30px;
+}
+.header-part > button{
+    height: 55px;
+    width: 140px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    background: rgb(255, 117, 25);
+    border-radius:  5px;
+}
+/* header section end */
+
+/* my failures section */
+.my_failurs{
+    display: flex;
+    padding: 135px 130px;
+    justify-content: center;
+    align-items: center;
+}
+.my_failurs img{
+    padding-right: 90px;
+
+}
+.my_failurs_container > h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom:22px;
+    padding-top: 20px;
+}
+.my_failurs_container > p{
+    font-size: 16px;
+    font-weight: 450;
+    padding-bottom:23px;
+    padding-top: 23px;
+}
+.my_failurs_container li{
+    padding-bottom: 15px ;
+    list-style: none;
+    font-size: 18px;
+}
+.my_failurs_container li i{
+    color: green;
+    padding-right: 5px;
+}
+/* my failurs section end */
+
+/* my plans section start */
+.my_plan{
+    padding: 40px;
+}
+.my_plan > h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.my_plan_container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.my_plan_container .my_plan_subcontainer .icons{
+    margin-bottom: 20px;
+}
+.my_plan_container .my_plan_subcontainer .tital{
+    font-size: 28px;
+    font-weight: 550;
+    padding-bottom: 15px;
+}
+.my_plan_container .my_plan_subcontainer .para{
+    color: #737272;
+    font-size: 22px;
+    font-weight: 450;
+}
+.gradienat_part{
+    background-image:linear-gradient(90deg,rgb(252, 4, 4),rgba(0,0,0,0.0)),url("../asset/image/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 120px 50px;
+    padding: 60px;
+    border-radius: 10px;
+}
+.gradienat_part .gradient_part_tital{
+    margin-right: 64px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.gradienat_part .gradient_part_btn{
+    background:white;
+    color: rgb(252, 4, 4);
+    border: none;
+    padding: 20px 32px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* my plan section end */
+
+/* footer section start */
+footer{
+    display: flex;
+    gap: 200px;
+    padding: 130px 230px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+footer .future > h1{
+    padding-bottom: 25px;
+    font-size: 40px;
+    font-weight: 600;
+}
+footer .future > p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 17px;
+}
+footer .future .anchor a{
+    padding-right: 10px;
+}
+footer .future .anchor a img{
+    height: 42px;
+    width: auto;
+}
+.emails > h3{
+    padding-bottom: 35px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.emails form .emails_sub_btn{
+    height: 45px;
+    width: 140px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    background: rgb(255, 117, 25);
+    border-radius:  5px;
+    margin-top: 15px;
+}
+.emails form .emails_sub{
+    height: 20px;
+    width: 280px;
+    color: white;
+    background: transparent;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+/* footer section end */
